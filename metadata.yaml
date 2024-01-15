@@ -1,0 +1,24 @@
+type: configuration
+owners:
+  - cloud-infrastructure-reliability@scout24.com
+product: infinity
+id: i6y
+vertical: s24
+confidentiality: company-internal
+exposure:
+  - platform
+lifecycle: ga
+name: i6y
+description: Node drainer to remove K8s resources when node is being drained
+links:
+  - type: documentation
+    title: End user documentation of infinity
+    address: https://docs.cloud.scout24.com/products/infinity/
+platform: aws
+tags:
+  - EKS
+  - infinity
+criticality:
+  value: gold
+  timestamp: "2024-01-12T15:14:46+02:00"
+orgId: Scout24
